@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DBB</title>
+    <link href="styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="IMGbox">
+        <div class="IMG1">
+          <img src="image 1.png" />
+        </div>
+      </div>
+      <div class="content">
+        <div class="row1">
+          <button class="loutbtn">Logout</button>
+          <br />
+        </div>
+        <div class="row2">
+          <p style="color: gray">
+            <span class="VA">1</span>
+            <span class="word">Verify Account</span>
+          </p>
+          <p style="color: gray">
+            <span class="SH">2</span>
+            <span class="handles">Social Handles</span>
+          </p>
+          <p style="color: gray">
+            <span class="bc">3</span>
+            <span class="category">Business Category</span>
+          </p>
+        </div>
+        <hr />
+        <div class="row3">
+          <p class="step">Step 1/3</p>
+          <p class="vrf">Verify Account</p>
+        </div>
+        <br />
+        <div class="row4">
+          <p class="svm">Select a verification method</p>
+          <div class="bvnpan">
+            <p>
+              <span class="bvn">BVN</span>
+              <span class="pan">Personal Account Number</span>
+            </p>
+          </div>
+        </div>
+        <div class="row5">
+          <form class="bvnform">
+            <label class="bvnn">Bank verification number(11 digits)</label
+            ><br />
+            <input type="number" class="bvnni" />
+            <br />
+            <br />
+          </form>
+        </div>
+        <div class="row6">
+          <div class="whybvn">
+          
+            <span class="wwnb"></p>
+              <img src="lock.png" / style="width: 12px; height: 12px; margin-right: auto;
+              " >Why we need your bvn
+            </span>
+            <span class="dropdown" id="drop" onclick="drop()">hide^</span>
+           </div>
+            <div class="ddcon">
+              <p class="pp">We only need access to your:</p>
+              <div class="acc">
+                <p class="fn">
+                  <img src="done.png" style="width: 10px; height: 10px" />Full
+                  name
+                </p>
+                <p class="pn">
+                  <img src="done.png" style="width: 10px; height: 10px" />Phone
+                  number
+                </p>
+                <p class="dob">
+                  <img src="done.png" style="width: 10px; height: 10px" />Date
+                  of birth
+                </p>
+              </div>
+            </div>
+            <hr />
+            <p class="acto">
+              <span
+                ><img src="1f510.png" / style="width: 12px; height:
+                12px;"></span
+              >Your bvn does not give us access to your accounts or transactions
+            </p>
+          
+        </div>
+        <div class="row7">
+          <button class="cntbtn">Continue</button>
+        </div>
+      </div>
+    </div>
+    <script>
+      function drop() {
+        console.log(document.getElementsByClassName("ddcon")[0].style);
+        document.getElementsByClassName("ddcon")[0].style.display = "block";
+      }
+    </script>
+  </body>
+</html>

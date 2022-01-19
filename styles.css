@@ -1,0 +1,212 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans&display=swap");
+.main {
+  display: flex;
+  height: 100vh;
+}
+.IMGbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f3e8c9;
+  width: 33.33%;
+  height: 700px;
+}
+.IMG1 {
+  height: auto;
+  box-sizing: border-box;
+  justify-content: center;
+}
+.content {
+  display: block;
+  box-sizing: border-box;
+  height: 100vh;
+  width: 66.667%;
+  background-color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.loutbtn {
+  float: right;
+  border-radius: 4px;
+  background-color: #ff6774;
+  color: #ffffff;
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  font-family: dm;
+  border-color: transparent;
+}
+.row2 {
+  display: flex;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: white;
+  border-bottom: 1px solid;
+  margin: auto;
+  padding-right: 50px;
+  border-color: transparent;
+}
+.VA {
+  padding-top: 4px;
+  padding-right: 10px;
+  padding-bottom: 4px;
+  padding-left: 10px;
+  border-radius: 3.1px;
+  text-align: center;
+  background-color: #006aff;
+}
+.word {
+  margin-left: 4px;
+  font-weight: bold;
+  color: #a5b4cb;
+  font-family: "DM Sans" sans-serif, Georgia;
+  padding-right: 50px;
+}
+.handles {
+  padding-right: 50px;
+}
+.SH {
+  margin-left: 4px;
+  padding-top: 4px;
+  padding-right: 10px;
+  padding-bottom: 4px;
+  padding-left: 10px;
+  border-radius: 3.1px;
+  text-align: center;
+  background-color: #e4e9ef;
+}
+.bc {
+  padding-top: 4px;
+  padding-right: 10px;
+  padding-bottom: 4px;
+  padding-left: 10px;
+  border-radius: 3.1px;
+  text-align: center;
+  background-color: #e4e9ef;
+}
+.category {
+  padding-right: 50px;
+}
+.step {
+  font-size: 13px;
+  color: #a5b4cb;
+}
+.vrf {
+  font-size: 26px;
+  color: #141737;
+}
+.svm {
+  font-size: 12px;
+  color: #141737;
+}
+.bvnpan {
+  display: flex;
+}
+.bvn {
+  background-color: #dceaff;
+  border: 1px solid #006aff;
+  padding-top: 4px;
+  padding-right: 19px;
+  padding-bottom: 5px;
+  padding-left: 19px;
+  border-radius: 10px;
+}
+.pan {
+  background-color: #f5f6fa;
+  border: 1px solid rgba(20, 23, 55, 0.1);
+  padding-top: 4px;
+  padding-right: 19px;
+  padding-bottom: 5px;
+  padding-left: 19px;
+  border-radius: 10px;
+}
+.bvnn {
+  font-size: 12px;
+  margin: 4px;
+}
+.bvnni {
+  width: 800px;
+  height: 54px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  border: 1px solid #e4e9ef;
+}
+.wwnb {
+  font-size: 12px;
+  color: #141737;
+  margin: 9px;
+}
+.pp {
+  font-size: 11px;
+  color: #141737;
+  margin: 9px;
+  opacity: 0.7;
+}
+.fn {
+  font-size: 11px;
+  color: #141737;
+  margin: 0px 6px;
+  opacity: 0.7;
+}
+.pn {
+  font-size: 11px;
+  color: #141737;
+  margin: 0px 6px;
+  opacity: 0.7;
+}
+.dob {
+  font-size: 11px;
+  color: #141737;
+  margin: 0px 6px;
+  opacity: 0.7;
+}
+.acto {
+  font-size: 11px;
+  color: #141737;
+}
+.bvnform {
+  display: block;
+}
+.row6 {
+  display: block;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #e9eef4;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  padding: 22px;
+}
+.dropdown {
+  float: right;
+  margin-right: 10px;
+  font-size: 9px;
+  color: #5257f5;
+  border-color: transparent;
+}
+.drp {
+  display: flex;
+}
+.cntbtn {
+  float: right;
+  border-radius: 4px;
+  background-color: blue;
+  color: white;
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  margin-top: 15px;
+  border-color: transparent;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "DM Sans", sans-serif;
+}
